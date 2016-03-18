@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\SlidingMenu\app\libs\crittercism_v3_0_3_sdkonly.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="17fd8b2c455671bb79b043fe79fa82846881809f">
+        <dex dex="F:\SlidingMenu\app\build\intermediates\pre-dexed\debug\crittercism_v3_0_3_sdkonly_07a3921220e9d814ebea4ecdfa3bc7784b1492e4.jar" />
+    </item>
+    <item
+        jar="C:\Android\SDK\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="F:\SlidingMenu\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.0_5d3a6b5a1bb732951b5916bfcc20d1ae3e0a5fcf.jar" />
+    </item>
+    <item
+        jar="F:\SlidingMenu\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="F:\SlidingMenu\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.0_49d550876ead00a3d82fdf3c46071edc94c9ee83.jar" />
+    </item>
+    <item
+        jar="F:\SlidingMenu\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="F:\SlidingMenu\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.0_df71a3366252848fb59cdc587bee5c2baa9e2dea.jar" />
+    </item>
+    <item
+        jar="F:\SlidingMenu\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="F:\SlidingMenu\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.0_a2ca148bdcfbd6cfd323b4c2ca3bec894714c856.jar" />
+    </item>
+    <item
+        jar="F:\SlidingMenu\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="F:\SlidingMenu\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.0_d6a54c32f28efc4472789522a06e55d23496f102.jar" />
+    </item>
+    <item
+        jar="F:\SlidingMenu\app\build\intermediates\exploded-aar\SlidingMenu\slidingmenu\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="feeb5cbca8da99506b93c3e1b5a8d2cf7caf2484">
+        <dex dex="F:\SlidingMenu\app\build\intermediates\pre-dexed\debug\SlidingMenu-slidingmenu-unspecified_392e5828fbecbbb66e04ff076847ba8d4516d93c.jar" />
+    </item>
+    <item
+        jar="F:\SlidingMenu\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="F:\SlidingMenu\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.0_93b0ca1982a77e2d6efd1c823a0158a8744a7905.jar" />
+    </item>
+
+</items>
