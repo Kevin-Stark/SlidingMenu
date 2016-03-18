@@ -79,15 +79,15 @@ public class SlidingMenu extends RelativeLayout {
 
     private OnCloseListener mCloseListener;
 
-    /**
-     * The listener interface for receiving onOpen events.
-     * The class that is interested in processing a onOpen
-     * event implements this interface, and the object created
-     * with that class is registered with a component using the
-     * component's <code>addOnOpenListener<code> method. When
-     * the onOpen event occurs, that object's appropriate
-     * method is invoked
-     */
+//    /**
+//     * The listener interface for receiving onOpen events.
+//     * The class that is interested in processing a onOpen
+//     * event implements this interface, and the object created
+//     * with that class is registered with a component using the
+//     * component's <code>addOnOpenListener<code> method. When
+//     * the onOpen event occurs, that object's appropriate
+//     * method is invoked
+//     */
     public interface OnOpenListener {
 
         /**
@@ -96,17 +96,17 @@ public class SlidingMenu extends RelativeLayout {
         public void onOpen();
     }
 
-    /**
-     * The listener interface for receiving onOpened events.
-     * The class that is interested in processing a onOpened
-     * event implements this interface, and the object created
-     * with that class is registered with a component using the
-     * component's <code>addOnOpenedListener<code> method. When
-     * the onOpened event occurs, that object's appropriate
-     * method is invoked.
-     *
-     * //@see OnOpenedEvent
-     */
+//    /**
+//     * The listener interface for receiving onOpened events.
+//     * The class that is interested in processing a onOpened
+//     * event implements this interface, and the object created
+//     * with that class is registered with a component using the
+//     * component's <code>addOnOpenedListener<code> method. When
+//     * the onOpened event occurs, that object's appropriate
+//     * method is invoked.
+//     *
+//     * @see OnOpenedEvent
+//     */
     public interface OnOpenedListener {
 
         /**
@@ -115,17 +115,17 @@ public class SlidingMenu extends RelativeLayout {
         public void onOpened();
     }
 
-    /**
-     * The listener interface for receiving onClose events.
-     * The class that is interested in processing a onClose
-     * event implements this interface, and the object created
-     * with that class is registered with a component using the
-     * component's <code>addOnCloseListener<code> method. When
-     * the onClose event occurs, that object's appropriate
-     * method is invoked.
-     *
-     * //@see OnCloseEvent
-     */
+//    /**
+//     * The listener interface for receiving onClose events.
+//     * The class that is interested in processing a onClose
+//     * event implements this interface, and the object created
+//     * with that class is registered with a component using the
+//     * component's <code>addOnCloseListener<code> method. When
+//     * the onClose event occurs, that object's appropriate
+//     * method is invoked.
+//     *
+//     * //@see OnCloseEvent
+//     */
     public interface OnCloseListener {
 
         /**
@@ -134,17 +134,17 @@ public class SlidingMenu extends RelativeLayout {
         public void onClose();
     }
 
-    /**
-     * The listener interface for receiving onClosed events.
-     * The class that is interested in processing a onClosed
-     * event implements this interface, and the object created
-     * with that class is registered with a component using the
-     * component's <code>addOnClosedListener<code> method. When
-     * the onClosed event occurs, that object's appropriate
-     * method is invoked.
-     *
-     * //@see OnClosedEvent
-     */
+//    /**
+//     * The listener interface for receiving onClosed events.
+//     * The class that is interested in processing a onClosed
+//     * event implements this interface, and the object created
+//     * with that class is registered with a component using the
+//     * component's <code>addOnClosedListener<code> method. When
+//     * the onClosed event occurs, that object's appropriate
+//     * method is invoked.
+//     *
+//     * //@see OnClosedEvent
+//     */
     public interface OnClosedListener {
 
         /**
@@ -382,11 +382,11 @@ public class SlidingMenu extends RelativeLayout {
         setMenu(LayoutInflater.from(getContext()).inflate(res, null));
     }
 
-    /**
-     * Set the behind view (menu) content to the given View.
-     *
-     * //@param view The desired content to display.
-     */
+//    /**
+//     * Set the behind view (menu) content to the given View.
+//     *
+//     * @param view The desired content to display.
+//     */
     public void setMenu(View v) {
         mViewBehind.setContent(v);
     }
@@ -410,11 +410,11 @@ public class SlidingMenu extends RelativeLayout {
         setSecondaryMenu(LayoutInflater.from(getContext()).inflate(res, null));
     }
 
-    /**
-     * Set the secondary behind view (right menu) content to the given View.
-     *
-     * //@param view The desired content to display.
-     */
+//    /**
+//     * Set the secondary behind view (right menu) content to the given View.
+//     *
+//     * @param view The desired content to display.
+//     */
     public void setSecondaryMenu(View v) {
         mViewBehind.setSecondaryContent(v);
         //		mViewBehind.invalidate();
@@ -681,11 +681,11 @@ public class SlidingMenu extends RelativeLayout {
         return mViewBehind.getMarginThreshold();
     }
 
-    /**
-     * Set the touch mode margin threshold
-     *
-     * @param touchmodeMarginThreshold
-     */
+//    /**
+//     * Set the touch mode margin threshold
+//     *
+//     * @param touchmodeMarginThreshold
+//     */
     public void setTouchmodeMarginThreshold(int touchmodeMarginThreshold) {
         mViewBehind.setMarginThreshold(touchmodeMarginThreshold);
     }
