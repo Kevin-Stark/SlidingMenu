@@ -90,6 +90,11 @@ public class SlidingExample extends Activity {
 }
 ```
 
+```java
+上传到jcenter，Android Studio调用，其他使用方法还是和原来一样
+compile 'com.kevin:slidingmenu:1.0.0'
+```
+
 XML Usage
 -----
 If you decide to use SlidingMenu as a view, you can define it in your xml layouts like this:
