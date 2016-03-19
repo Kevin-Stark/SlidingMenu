@@ -90,26 +90,11 @@ public class SlidingExample extends Activity {
 }
 ```
 
-```java
 上传到jcenter，Android Studio调用，其他使用方法还是和原来一样
+```xml
 compile 'com.kevin:slidingmenu:1.0.0'
 ```
-
 ![](https://github.com/Kevin-Stark/SlidingMenu/GIF/SlidingMenu.gif) 
-
-属性含义(翻译不好见谅)：
-viewAbove - 你想放在SlidingMenu顶上的layout
-viewBehind - 你想放在SlidingMenu背后的layout
-touchModeAbove - 枚举类型，指定屏幕的哪一部分被touch时aboveView显示，Margin只代表左margin,Fullscreen代表整个屏幕，默认是margin
-behindOffset - 当behind视图显示时，你想让above显示的偏移像素，默认0
-behindWidth - behind视图的宽度尺寸，默认为屏幕宽度(behindOffset为0)
-behindScrollScale - 前后view滚动关系，浮点型变量，设置0.5f，前视图滚动时1px，后面视图将会滚动2px,如果设置为1，后面将会滚动1px，如果设置为0，后面视图将不会滚动。默认0.25f
-shadowDrawable - 一个用来被做为阴影的drawable，默认是没有的。
-shadowWidth - 阴影drawable宽度. 默认0.
-fadeEnabled - SlidingMenu打开关闭时，后面视图是否有fade效果
-fadeDegree - dafe的程度，为1时，slidingmenu关闭时所有的都淡入淡出，0代表不褪色，
-selectorEnabled - 是否selector应该画在aboveview的左边，在behindview显示一个选择过的view
-selectorDrawable - 设置被选择的视图的drawable。需要调用SlidingMenu.setSelectedView
 
 XML Usage
 -----
