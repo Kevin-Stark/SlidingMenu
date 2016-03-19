@@ -28,5 +28,4 @@ dependencies {
 
     //jcenter的slidingmenu
     compile 'com.kevin:slidingmenu:1.0.0'
-    compile 'com.kevin:PercentSupportExtends:1.1.0'
 }
