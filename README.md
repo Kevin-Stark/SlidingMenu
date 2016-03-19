@@ -94,8 +94,7 @@ public class SlidingExample extends Activity {
 ```xml
 compile 'com.kevin:slidingmenu:1.0.0'
 ```
-![](https://github.com/Kevin-Stark/SlidingMenu/GIF/SlidingMenu.gif) 
-
+![](https://github.com/Kevin-Stark/SlidingMenu/tree/master/GIF/SlidingMenu.gif) 
 XML Usage
 -----
 If you decide to use SlidingMenu as a view, you can define it in your xml layouts like this:
